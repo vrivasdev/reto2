@@ -1,7 +1,9 @@
 body{
-	background: lightgray;
-	min-height: 100vh;
-	margin: 0;
+	background    : lightgray;
+	min-height    : 100vh;
+	margin        : 0;
+	display       : flex;
+	flex-direction: column;
 }
 
 h2 {
@@ -18,14 +20,10 @@ header{
 
 section{
 	background: #fcfcd2;
-	/*min-height: 450px;*/
+	flex: 1;
 }
 
 footer{
 	background: #7fc719;
-	height    : 100px;
-	/*position  : fixed;
-	bottom    : 0;
-	left      : 0;
-	right     : 0;*/
+	height    : 100px;	
 }
